@@ -1,0 +1,65 @@
+.formContainer{
+   
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+    color:teal;
+    margin-top: 50px;
+}
+
+
+input{
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px dashed rgb(2, 71, 71);
+    background-color: transparent;
+    margin-left: 20px;
+    width: 200px;
+    outline: none;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+select{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.formData  div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signUpBtn{
+    font-family: 'Kanit', sans-serif;
+    color: teal;
+    border: 1px teal solid;
+    margin: 20px;
+    font-size: 15px;
+}
+
+label {
+    color: teal;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.signUpTitle{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+}
+
+.errorMessage{
+    color:red;
+}
+
+

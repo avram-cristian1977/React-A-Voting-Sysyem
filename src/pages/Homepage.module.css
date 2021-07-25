@@ -1,0 +1,228 @@
+.homeImage {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+body{
+    min-height: 100vh;
+}
+.homeImage img {
+    width: 50%;
+}
+.topTextWrapper{
+    
+    width: 70%;
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: teal;
+}
+
+.horizontalLine{
+    height: 3px;
+    width: 100%;
+    background-color: teal;
+}
+
+.changeYour{
+    color: grey;
+    font-size: large;
+}
+
+.stample{
+    margin-left: 28vw;
+}
+
+.walkingPeopleWrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  
+}
+
+.walkingPeopleWrapper img {
+    border-radius: 2px;
+    width: 70%;
+   
+}
+
+.centralBannerWrapper {
+    border-radius: 3px;
+    position: absolute;
+    background-color: teal;
+    opacity: 0.5;
+    width: 60%;
+    height: 30vw;
+    top: 5vw;
+
+}
+
+.voteMsg1 {
+    font-size: 1vw;
+    position: absolute;
+    top: 3vw;
+    color: white;
+    opacity: 1;
+    background-color: rgb(6, 37, 37);
+    display: inline-block;
+    padding: 3px 10px 0px 5px;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    z-index: 100;
+}
+
+.voteMsg2 {
+    font-size: 1vw;
+    bottom: 3vw;
+    position: absolute;
+    color: white;
+    opacity: 1;
+    background-color: rgb(6, 37, 37);
+    display: inline-block;
+    padding: 3px 10px 0px 5px;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    z-index: 100;
+}
+
+.mainMsgWrapper h1 {
+    margin: 0;
+    border: 1px solid rgb(7, 99, 105);
+    padding-top: 1vw;
+}
+
+
+
+.centralBanner {
+    background-color: rgb(160, 207, 207);
+    margin: auto;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.bannerMsg {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    background-color: rgb(2, 65, 65);
+    color: white;
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    padding: 3px 5px 2px 5px;
+    color: rgb(230, 230, 230);
+    font-weight: lighter;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.votingHandWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.votingHandWrapper img {
+    border-radius: 3px;
+    position: absolute;
+    top: 5vw;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    opacity: 0.5;
+}
+
+h1 {
+    margin: 0;
+}
+.bottomText{
+    text-indent: 10vw;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5vw;
+    margin: 50px 30px 100px 30px;
+}
+
+.scrlTopBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-shadow: 0px 2px 2px grey;
+    background-color: teal;
+    border: none;
+    color: white;
+}
+
+.scrlTopBtn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: white;
+    color: teal
+    ;
+}
+
+.scrlTopBtn:active {
+    transform: translate(1px, -1px)
+}
+
+  
+  
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+@media screen and (max-width: 1200px) {
+
+    .voteMsg1,
+    .voteMsg2 {
+        font-size: 0.7vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .voteImageWrapper img {
+        width: 22vw;
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .bannerMsg {
+        border-radius: 0px
+    }
+  
+}
+@media screen and (max-width: 430px) {
+
+    .bannerMsg {
+        border-radius: 0px
+    }
+  
+}
+@media screen and (max-width: 570px) {
+
+
+  
+}
+

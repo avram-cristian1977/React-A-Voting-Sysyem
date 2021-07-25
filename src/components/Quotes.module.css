@@ -1,0 +1,59 @@
+.personalityWrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 20px;
+  
+}
+
+.signWrapper{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.personalityWrapper img {
+    border-radius: 2px;
+    width: 60%;
+    
+}
+
+.centralBannerWrapper {
+    border-radius: 3px;
+    position: absolute;
+    background-color: teal;
+    opacity: 0.5;
+    width: 40%;
+    height: 50%;
+    top:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.personalityQuote{
+    color:white;
+    font-style: italic;
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+
+}
+
+.sectionRow{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .personalityQuote,  .personName{
+        font-size: 1.5vw;
+    
+    }
+  
+    
+   
+}
+
